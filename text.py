@@ -7,7 +7,6 @@ def countword():
     word = new_file[0]
     for x in new_file[1:]:
         temp = revword(x)
-        print(temp)
         if temp == word:
             counter += 1
     return counter
