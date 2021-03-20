@@ -5,7 +5,7 @@ def revword(word:str):
 def countword():
     counter = 1
     word = new_file[0]
-    for x in new_file:
+    for x in new_file[1:]:
         temp = revword(x)
         print(temp)
         if temp == word:
